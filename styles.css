@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Mochiy+Pop+One&family=Oswald:wght@200;300;400;500&family=Poppins:wght@200;300;500&family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+
+*{
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+   
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+:root{
+    --main-color: #FF1493;
+    --text-color: #171427;
+    --bg-color: #fff;
+}
+
+.container{
+    max-width: 1068px;
+    margin: auto;
+}
+.logo{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+
+
+
+header{
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--main-color);
+   
+
+}
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+section{
+    padding: 4rem 0 3rem;
+
+
+}
+.section-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+
+}
+.shop{
+    margin-top: 0.8rem;
+}
+.product-img{
+    width: 350px;
+    border-radius: 10px;
+}
+.product-box{
+
+    padding: 7px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 1s;
+     border: 1px solid black;
+}
+
+   
+    
+
+.shop-content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+    
+    
+}
+
+
+
+
+
+
+    
+
+
+
