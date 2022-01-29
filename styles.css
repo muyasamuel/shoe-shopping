@@ -102,6 +102,14 @@ section{
     border-radius: 5px;
 
 }
+#cart-icon{
+    font-size: 1.8rem;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.cart-icon span{
+    margin-right: 10px ;
+}
 
 
 
