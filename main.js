@@ -49,3 +49,18 @@ function addingToCart(){
     
     
 }
+
+//removing item from cart
+const cartRemoveItem = document.querySelectorAll(".cart-remove");
+
+
+
+    for(let i = 0; i < cartRemoveItem.length; i++){
+        cartRemoveItem[i].addEventListener("click", ()=>{
+            let deleteBtn = event.target
+            let deleteBtn_parent = deleteBtn.parentElement
+            deleteBtn_parent.remove();
+        })
+    }
+
+
