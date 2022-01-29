@@ -92,6 +92,16 @@ section{
     
     
 }
+.add-cart{
+ 
+    cursor: pointer;
+    font-size: 25px;
+    background: var(--text-color);
+    color: var(--bg-color);
+    margin-left: 30px;
+    border-radius: 5px;
+
+}
 
 
 
